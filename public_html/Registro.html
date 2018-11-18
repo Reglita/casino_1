@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Casino</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+        <link href="css/registrocss.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <div class="topnav">
+                <a class="active" href="index.html">Mi casino</a>
+                <a href="Slot.html">Slot Machine</a>
+                <a href="Dados.html">Dados</a>
+                <a href="Blackjack.html">Blackjack</a>
+               
+                <div class="topnav-right">
+                    <a href="Registro.html">Registro</a>
+
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+
+                <header>
+                    <h1>Regístrate con nosotros</h1>
+
+                </header>
+                <section>				
+                    <div id="container_demo" >
+                        <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+                        <a class="hiddenanchor" id="toregister"></a>
+                        <a class="hiddenanchor" id="tologin"></a>
+                        <div id="wrapper">
+                            <div id="login" class="animate form">
+                                <form  action="mysuperscript.php" autocomplete="on"> 
+                                    <h1>Iniciar sesión</h1> 
+                                    <p> 
+                                        <label for="username" class="uname" > Tu email o usuario </label>
+                                        <input id="username" name="username" required="required" type="text" placeholder="miusuario o mimail@mail.com"/>
+                                    </p>
+                                    <p> 
+                                        <label for="password" class="youpasswd"> Tu password </label>
+                                        <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+                                    </p>
+                                    <p class="keeplogin"> 
+                                        <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+                                        <label for="loginkeeping">Recuérdame</label>
+                                    </p>
+                                    <p class="login button"> 
+                                        <a href="http://cookingfoodsworld.blogspot.in/" target="_blank" ></a>
+                                    </p>
+                                    <p class="change_link">
+                                        ¿No eres miembro aún?
+                                        <a href="#toregister" class="to_register">Únete</a>
+                                    </p>
+                                </form>
+                            </div>
+
+                            <div id="register" class="animate form">
+                                <form  action="mysuperscript.php" autocomplete="on"> 
+                                    <h1> Registro </h1> 
+                                    <p> 
+                                        <label for="usernamesignup" class="uname" >Usuario</label>
+                                        <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="misuperusuario690" />
+                                    </p>
+                                    <p> 
+                                        <label for="emailsignup" class="youmail"  > Tu email</label>
+                                        <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="misupermail@mail.com"/> 
+                                    </p>
+                                    <p> 
+                                        <label for="passwordsignup" class="youpasswd" >Tu password </label>
+                                        <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                    </p>
+                                    <p> 
+                                        <label for="passwordsignup_confirm" class="youpasswd" >Confirma tu password </label>
+                                        <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                    </p>
+                                    <p class="signin button"> 
+                                        <input type="submit" value="Regístrate"/> 
+                                    </p>
+                                    <p class="change_link">  
+                                        ¿Ya eres miembro?
+                                        <a href="#tologin" class="to_register"> Loguéate </a>
+                                    </p>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>  
+                </section>
+            </div>
+
+            
+
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="container center">
+                <div class="row justify-content-center">
+                    <a class="nav-link js-scroll-trigger" href="">casino &copy; 2018<img src="images/jugarsegurokk.png" alt=""/></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
